@@ -11,7 +11,8 @@ body {
 .link {
     text-decoration: none;
     color: #2E2F42;
-    font-weight: 500;        
+    font-weight: 500;
+    padding: 24px 0;
 }
 .link:focus {
     color: #404BBF;
@@ -96,6 +97,17 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     text-align: center;
 }
+.features-title.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
 .features {
     color: #2E2F42;
     font-size: 20px;
@@ -149,6 +161,7 @@ margin: 0 auto;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .footer {
     background-color: #2E2F42;
@@ -189,7 +202,7 @@ img {
 }
 .container {
     max-width: 1158px;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     margin-left: 0;
     margin-right: 0;
 }
@@ -203,8 +216,7 @@ img {
 }
 .nav-box {
     display: flex;
-    align-items: center;
-    margin-top: 24px;
+    align-items: baseline;
 }
 
 .logo-box {
@@ -216,26 +228,23 @@ img {
     gap: 40px;
 }
 
-.navigation-item {
-    padding: 24px 0 24px;
-}
-
 .address-nav {
     display: flex;
-    flex-direction: row;
     gap: 40px;
-    margin-top: 24px;
 }
 
-header {
+.header-menu {
     border-bottom: 1px solid #E7E9FC;
+    
 }
 .container-header {
     max-width: 1158px;
-    padding: 0 15px 0 15px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 24px 15px;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 .features-box {
     display: flex;
@@ -245,9 +254,7 @@ header {
     display: block;
     width: 264px;
 }
-.features-title {
-    visibility: hidden;
-}
+
 .section-our-team {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -267,6 +274,7 @@ header {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+
 }
 .portfolio-list-item {
     width: calc((100% - 48px)/3;
