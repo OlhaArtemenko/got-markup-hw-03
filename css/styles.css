@@ -175,6 +175,7 @@ margin: 0 auto;
 .link-logo {
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px;
 }
 .link-logo-studio-footer {
     color: #F4F4FD;
@@ -216,11 +217,7 @@ img {
 }
 .nav-box {
     display: flex;
-    align-items: baseline;
-}
-
-.logo-box {
-    margin-right: 76px;
+    align-items: center;
 }
 
 .navigation {
@@ -239,7 +236,7 @@ img {
 }
 .container-header {
     max-width: 1158px;
-    padding: 24px 15px;
+    padding: 0 15px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -274,7 +271,6 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
 }
 .portfolio-list-item {
     width: calc((100% - 48px)/3;
