@@ -7,6 +7,37 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .link {
     text-decoration: none;
     color: #2E2F42;
@@ -41,7 +72,6 @@ ul, ol {
 address {
 font-style: normal;
 }
-
 .link-address {
     text-decoration: none;
     color: #434455;
@@ -49,11 +79,9 @@ font-style: normal;
 .link-address:hover {
     color: #404BBF;
 }
-
 .link-address:focus {
     color: #404BBF;
 }
-
 .hero-section {
     background-color: #2E2F42;
 }
@@ -119,7 +147,6 @@ margin: 0 auto;
     letter-spacing: 0.40px;
     margin-bottom: 8px;
 }
-
 .team-title {
     color: #2E2F42;
     font-size: 36px;
@@ -180,36 +207,6 @@ margin: 0 auto;
     color: #F4F4FD;
 
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-img {
-    display: block;
-}
-.container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 .hero-section {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -218,12 +215,10 @@ img {
     display: flex;
     align-items: center;
 }
-
 .navigation {
     display: flex;
     gap: 40px;
 }
-
 .address-nav {
     display: flex;
     gap: 40px;
@@ -248,7 +243,6 @@ img {
     display: block;
     width: 264px;
 }
-
 .section-our-team {
     padding-top: 120px;
     padding-bottom: 120px;
