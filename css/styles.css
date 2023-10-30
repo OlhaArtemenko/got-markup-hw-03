@@ -196,7 +196,9 @@ margin: 0 auto;
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
-    
+}
+.logo-footer {
+    margin-bottom: 16px;
 }
 .footer-text {
     color: #F4F4FD;
@@ -246,7 +248,6 @@ margin: 0 auto;
 .section-our-team {
     padding-top: 120px;
     padding-bottom: 120px;
-    display: flex;
     background-color: #F4F4FD;
 }
 .team-box-items {
